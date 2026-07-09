@@ -383,7 +383,7 @@ textarea:focus-visible {
   gap: 0.7rem;
 }
 .brand img {
-  height: 34px;
+  height: 70px;
   width: auto;
   filter: drop-shadow(0 0 10px rgba(201, 162, 75, 0.25));
 }
@@ -585,7 +585,7 @@ textarea:focus-visible {
   gap: 0.6rem;
 }
 .mm-brand img {
-  height: 28px;
+  height: 70px;
   width: auto;
 }
 .mm-brand span {
@@ -787,14 +787,11 @@ textarea:focus-visible {
   position: absolute;
   inset: 0;
   z-index: 0;
-  will-change: transform;
 }
 .hero-bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 35%;
-  transform: scale(1.08);
 }
 .hero-bg::after {
   content: "";
@@ -806,48 +803,6 @@ textarea:focus-visible {
     rgba(6, 5, 4, 0.55) 30%,
     rgba(6, 5, 4, 0.85) 78%,
     var(--black) 100%
-  );
-}
-/* Spotlight — a single warm beam over the headline, like a follow-spot
-   finding centre stage the moment the curtain rises. */
-.hero-spotlight {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background: radial-gradient(
-    ellipse 55% 42% at 50% 18%,
-    rgba(238, 203, 132, 0.16),
-    transparent 62%
-  );
-}
-
-/* Curtain edges — the house lights are down, the velvet is still just in frame */
-.hero-curtain {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: clamp(24px, 6vw, 90px);
-  z-index: 1;
-  pointer-events: none;
-  opacity: 0.85;
-}
-.hero-curtain-l {
-  left: 0;
-  background: linear-gradient(
-    90deg,
-    var(--maroon-deep),
-    rgba(67, 15, 22, 0.35) 60%,
-    transparent
-  );
-}
-.hero-curtain-r {
-  right: 0;
-  background: linear-gradient(
-    270deg,
-    var(--maroon-deep),
-    rgba(67, 15, 22, 0.35) 60%,
-    transparent
   );
 }
 
@@ -1983,7 +1938,7 @@ footer {
   padding-bottom: 3rem;
 }
 .footer-brand img {
-  height: 40px;
+  height: 70px;
   margin-bottom: 1rem;
 }
 .footer-wordmark {
