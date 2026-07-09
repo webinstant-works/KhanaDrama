@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webinstant-works.github.io/KhanaDrama/sitemap.xml
